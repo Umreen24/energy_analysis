@@ -1,0 +1,163 @@
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    #inner-container{
+        display: none;
+    }
+
+    #dropDownState{
+        background-color: #51cda0;
+        margin-top: 10px;
+    }
+
+    #dropDownMenu{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        align-items: center;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: large;
+    }
+
+    #freqMenu{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        align-items: center;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: large;
+    }
+
+    #dropDownFreq{
+        background-color: #51cda0;
+        margin-top: 10px;
+    }
+
+    #charts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #kwContainer{
+        width: 100vw !important;
+        height: 70vw;
+        margin-bottom: 5vh;
+    }
+
+    #priceContainer{
+        width: 100vw !important;
+        height: 70vw;
+    }
+    
+    #stateSelected{
+        display: flex;
+        height: 50px;
+    }
+
+}
+
+
+@media (min-width: 481px) {
+
+    #dropDownState{
+        display: none;
+    }
+
+    #dropDownMenu{
+        display: none;
+    }
+
+    #inner-container{
+        display: flex;
+        width: 100%;
+    }
+
+    #map{
+        width: 60vw;
+        height: 60vw;
+    }
+
+    #stateSelected{
+        margin: 2vw;
+    }
+
+    #stateSelected ul{
+        font-size: calc(6.5px + .5vw);
+    }
+
+    ul h3{
+        text-align: center;
+        background-color: rgb(81, 205, 160);
+        margin-top: -2vw;
+    }
+
+    #stateSelected li{
+        padding: calc(2px + .5vh);
+        list-style: none;
+        font-size: calc(6px + .85vw);
+    }
+
+    #charts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #kwContainer{
+        width: 80vw !important;
+        height: 30vw;
+        margin-top: -7vw;
+    }
+
+    #priceContainer{
+        width: 80vw !important;
+        height: 30vw;
+    }
+
+    #freqMenu{
+        display: flex;
+        flex-direction: column;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-top: -15vh;
+        margin-bottom: 10vw;
+    }
+
+    #dropDownFreq{
+        background-color: rgb(81, 205, 160);
+        margin-top: 10px;
+        width: 15vw;
+    }
+
+}
+
+body{
+    background-color: white;
+}
+
+#header{
+    background-color: #313131;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter !important;
+    text-decoration: none;
+    padding: 5px;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
